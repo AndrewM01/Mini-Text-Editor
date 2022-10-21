@@ -444,32 +444,11 @@ void menu()
 
 int main()
 {
-	/*FileReader();
+	FileReader();
 	menu();
-	read();*/
+	read();
 
-	char arr[8][5] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9','=','+','-','/','*'
-
-	};
-	char input;
-	cin >> input;
-	while (input != '0')
-	{
-		cout << "/";
-		cin >> input;
-		
-		for (int i = 0; i < 8; i++)
-		{
-			for (int j = 0; j < 5; j++)
-			{
-				if (input == arr[i][j])	
-				{
-					cout << "(" <<i + 1 << "," << j + 1<<")" <<"  ";
-				}
-			}
-			;
-		}
-		
-	}
+	
+	
 	return 0;
 }
